@@ -1,0 +1,9 @@
+﻿C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppClean.targets(76,5): warning : Access to the path 'c:\program files\basler\pylon 5\development\samples\c++\grab\debug\vc140.pdb' is denied.
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppClean.targets(76,5): warning : Access to the path 'c:\program files\basler\pylon 5\development\samples\c++\grab\debug\vc140.idb' is denied.
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppClean.targets(76,5): warning : Access to the path 'c:\program files\basler\pylon 5\development\samples\c++\grab\debug\grab.obj' is denied.
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppClean.targets(76,5): warning : Access to the path 'c:\program files\basler\pylon 5\development\samples\c++\debug\grab.ilk' is denied.
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppClean.targets(76,5): warning : Access to the path 'c:\program files\basler\pylon 5\development\samples\c++\debug\grab.exe' is denied.
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppClean.targets(76,5): warning : Access to the path 'c:\program files\basler\pylon 5\development\samples\c++\debug\grab.pdb' is denied.
+  Grab.cpp
+  Grab_Usb.vcxproj -> C:\Rekha\pylonSamplesTest\C++\Debug\Grab.exe
+  Grab_Usb.vcxproj -> C:\Rekha\pylonSamplesTest\C++\Debug\Grab.pdb (Full PDB)

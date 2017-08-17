@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="CSampleCameraEventHandler">
+    <Position X="0.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Grab_CameraEvents_Usb.cpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CSampleImageEventHandler" Collapsed="true">
+    <Position X="4.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACA=</HashCode>
+      <FileName>Grab_CameraEvents_Usb.cpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Pylon::CInstantCamera" Collapsed="true">
+    <Position X="3" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>fAABBBABAwBCMAMAiOQDFAAAQ4IAgBkAkyJgAAOBCwA=</HashCode>
+      <FileName>c:\Program Files\Basler\pylon 5\Development\include\pylon\InstantCamera.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Pylon::CCameraEventPrinter">
+    <Position X="3" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>C:\Rekha\pylonSamplesTest\C++\include\CameraEventPrinter.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Pylon::CConfigurationEventPrinter" Collapsed="true">
+    <Position X="4.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IIABAAEAMAAAAAIAAAEAAAgAAIgAAAAQAAIDAAAAgAA=</HashCode>
+      <FileName>C:\Rekha\pylonSamplesTest\C++\include\ConfigurationEventPrinter.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Typedef Name="Camera_t" Collapsed="true">
+    <Position X="3" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Grab_CameraEvents_Usb.cpp</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="CameraEventHandler_t" Collapsed="true">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Grab_CameraEvents_Usb.cpp</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Enum Name="MyEvents" Collapsed="true">
+    <Position X="3" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAA=</HashCode>
+      <FileName>Grab_CameraEvents_Usb.cpp</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
