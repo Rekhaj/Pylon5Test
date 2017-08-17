@@ -38,7 +38,7 @@ int main(int argc, char* argv[])
     // The exit code of the sample application.
     int exitCode = 0;
 
-    // Before using any pylon methods, the pylon runtime must be initialized. 
+    // Before using any pylon methods, the pylon runtime must be initialized.
     PylonInitialize();
 
     try
@@ -48,6 +48,10 @@ int main(int argc, char* argv[])
 
         // Print the model name of the camera.
         cout << "Using device " << camera.GetDeviceInfo().GetModelName() << endl;
+       //  cout << "Using device" << camera.GetDeviceInfo().GetModelName() << endl;
+      //  camera.MaxNumBuffer = 6;
+
+
 
         // The parameter MaxNumBuffer can be used to control the count of buffers
         // allocated for grabbing. The default value of this parameter is 10.
@@ -76,6 +80,7 @@ int main(int argc, char* argv[])
                 cout << "SizeY: " << ptrGrabResult->GetHeight() << endl;
                 const uint8_t *pImageBuffer = (uint8_t *) ptrGrabResult->GetBuffer();
                 cout << "Gray value of first pixel: " << (uint32_t) pImageBuffer[0] << endl << endl;
+                //cout << "Gray value of first pixel:" << (unit32_t) pImageBuffer[0] << endl << endl;
 
 #ifdef PYLON_WIN_BUILD
                 // Display the grabbed image.
@@ -94,14 +99,19 @@ int main(int argc, char* argv[])
         cerr << "An exception occurred." << endl
         << e.GetDescription() << endl;
         exitCode = 1;
+        //exitCode = 2;
     }
 
     // Comment the following two lines to disable waiting on exit.
     cerr << endl << "Press Enter to exit." << endl;
     while( cin.get() != '\n');
+    //while(cin.get()  != '\n');
+    //cerr << endl; << "Press Enter to exit." << endl;
 
-    // Releases all pylon resources. 
-    PylonTerminate();  
+
+
+    // Releases all pylon resources.
+    PylonTerminate();
 
     return exitCode;
 }

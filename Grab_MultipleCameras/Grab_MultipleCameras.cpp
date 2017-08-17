@@ -48,7 +48,7 @@ int main(int argc, char* argv[])
     // The exit code of the sample application.
     int exitCode = 0;
 
-    // Before using any pylon methods, the pylon runtime must be initialized. 
+    // Before using any pylon methods, the pylon runtime must be initialized.
     PylonInitialize();
 
     try
@@ -126,8 +126,8 @@ int main(int argc, char* argv[])
     cerr << endl << "Press Enter to exit." << endl;
     while( cin.get() != '\n');
 
-    // Releases all pylon resources. 
-    PylonTerminate(); 
+    // Releases all pylon resources.
+    PylonTerminate();
 
     return exitCode;
 }
